@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Gravity Flip Runner</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1> Gravity Flip Runner</h1>
+
+    <div class="scoreBoard">
+
+        <div>
+
+            <span>Score</span>
+
+            <h2 id="score">0</h2>
+
+        </div>
+
+        <div>
+
+            <span>High Score</span>
+
+            <h2 id="highScore">0</h2>
+
+        </div>
+
+    </div>
+
+    <canvas
+        id="gameCanvas"
+        width="1000"
+        height="500">
+    </canvas>
+
+    <div class="controls">
+
+        <p>
+             SPACE = Flip Gravity
+        </p>
+
+        <p>
+             R = Restart
+        </p>
+
+    </div>
+
+    <div
+        id="gameOver"
+        class="gameOver">
+
+        <h2> GAME OVER</h2>
+
+        <p>Your Score</p>
+
+        <h1 id="finalScore">0</h1>
+
+        <button id="restartBtn">
+
+            Play Again
+
+        </Enter,button>
+
+    </div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+
+</html>
